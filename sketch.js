@@ -28,13 +28,8 @@ function setup() {
           // Definisce le coordinate della linea casuale e la sua lunghezza, ovvero l'intera dimensione della cella.
       }
   }
-  const message =
-    "This is a template repository\nfor the course Laboratorio di Computergrafica\nCommunication Design, Politecnico di Milano";
-  textAlign(CENTER, CENTER);
-  textSize(16);
-  text(message, width / 2, height / 2);
 }
-
+  
 function lineaRandom(x, y, cella) {
   let choice = int(random(4));  
   // Stabilisce un intervallo da 0 a 3
